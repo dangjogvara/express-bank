@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const dbConnect = require('./config/dbConnect');
+const dbConnect = require('../config/dbConnect');
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
